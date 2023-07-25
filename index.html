@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -19,15 +20,71 @@
     <header>
          <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 ">
             <div class="flex  flex-col md:flex-row items-center ">
-                <div>
-                    <h1 class="text-2xl md:text-5xl lg:text-7xl font-extrabold">It's good <br>
+                <div class="space-y-10">
+                    <h1 class="text-2xl md:text-5xl lg:text-7xl font-extrabold ">It's good <br>
                         tea time at The<br> Tea House</h1>
                         <p class="text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                        <button class="btn btn-primary bg-gradient-to-r from-[#FF8938] border-0 to-[#F00] text-white">Explore More <i class="fa-solid fa-arrow-up-right fa-2xl"></i></button>
                 </div>
                 <div>
                     <img src="./images/banner.png" alt="">
+                    <div class="flex bg-[#FFF] items-center gap-3 w-40 md:w-52 p-2 -mt-1 md:-mt-20 ml-5 md:ml-14 absolute shadow-slate-200">
+                        <i class="fa-solid fa-star fa-2xl text-amber-400"></i>
+                        <div >
+                            <h3 class="text-3xl font-extrabold">5.00</h3>
+                            <p class="text-base font-semibold text-[#777]">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+         </section>
+         <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 ">
+            <div>
+                <h1 class="text-center font-extrabold text-4xl">Our Featured Products</h1>
+                <p class="text-sm font-base max-w-4xl mx-auto text-center pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- card -->
+            <div>
+               <div class="card  bg-base-100 shadow-xl">
+                   <figure><img class="px-14 pt-8 py-140"src="./images/tea-1.png" alt="Shoes" /></figure>
+                   <div class="card-body">
+                     <h2 class="text-2xl font-extrabold text-center">Milk Tea</h2>
+                     <p class="text-sm font-medium">Creamer could be replaced by fresh milk</p>
+                   </div>
+                 </div>
+            </div>
+            <!-- card-2 -->
+            <div>
+               <div class="card  bg-base-100 shadow-xl">
+                   <figure><img class="px-14 pt-8 py-140"src="./images/tea-2.png" alt="Shoes" /></figure>
+                   <div class="card-body">
+                     <h2 class="text-2xl font-extrabold text-center">Black Tea</h2>
+                     <p class="text-sm font-medium">Creamer could be replaced by fresh milk</p>
+                   </div>
+                 </div>
+            </div>
+            <!-- card-3 -->
+            <div>
+               <div class="card  bg-base-100 shadow-xl">
+                   <figure><img class="px-14 pt-8 py-140"src="./images/tea-3.png" alt="Shoes" /></figure>
+                   <div class="card-body">
+                     <h2 class="text-2xl font-extrabold text-center">Lemon Tea</h2>
+                     <p class="text-sm font-medium">Creamer could be replaced by fresh milk</p>
+                   </div>
+                 </div>
+            </div>
+            <!-- card-4 -->
+            <div>
+               <div class="card  bg-base-100 shadow-xl">
+                   <figure><img class="px-14 pt-8 py-140"src="./images/tea-4.png" alt="Shoes" /></figure>
+                   <div class="card-body">
+                     <h2 class="text-2xl font-extrabold text-center">Green Tea</h2>
+                     <p class="text-sm font-medium">Creamer could be replaced by fresh milk</p>
+                   </div>
+                 </div>
+            </div>
+        </div>
          </section>
     </header>
     <body>
